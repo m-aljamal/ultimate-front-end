@@ -1,0 +1,30 @@
+- project structure and files: 
+  - 2 folders (dist) مضغوط عميل (stage) للمطور
+  - (stage) => html, css, js
+  -(html) => pug, dashboard.pug تستدعي جميع الملفات داخل pug
+  -(pug) => components, layout, 
+  - (css) => sass, libs يحتوي على المكتبات امستخدمة, main.scss يتم استداع جميع  الملفات في هذا الملف
+  - (sass) => components, helpers, layout, pages, themes, variabels 
+
+  dist: 
+     
+    
+
+  stage: 
+        html: 
+                pug: 
+                            components
+                            layout 
+
+                dashboard.pug 
+        css: 
+                sass: 
+                            components 
+                            helpers
+                            layout 
+                            pages 
+                            themes 
+                            variabels 
+                libs 
+                main.scss 
+        js  
